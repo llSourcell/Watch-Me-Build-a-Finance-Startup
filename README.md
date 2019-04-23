@@ -2,8 +2,7 @@
 
 ## Overview
 
-This is the code for [this](https://youtu.be/OE6wssMJoag) video on Youtube by Siraj Raval on building an AI Startup with PyTorch. [This](https://github.com/flatfisher/android-dialogflow-chatbot-sample) is the original Dialogflow + Android integration project. [This](https://colab.research.google.com/drive/1b6oSQl84XdRv_abjhg1vpTpiZyZw2TPF) is the colab that I demonstrated in the video where I train the PyTorch model on movie reviews, then convert it to ONNX, then to Tensorflow's expected protobuf format. 
-
+This is the code for [this](https://youtu.be/oeraUtRgsbI) video on Youtube by Siraj Raval on building an Finance Startup. You should use this code and the video as a boilerplate for building your own AI startup.
 
 ## #AISTARTUPCHALLENGE
 
@@ -12,13 +11,25 @@ This is the code for [this](https://youtu.be/OE6wssMJoag) video on Youtube by Si
 Due date is May 15 2019 
 Submit your entry [here](https://forms.gle/9b2rwMDZYcF6XGSN8). 
 
+
+## Call for Pull Requests
+
+This code compiles and runs, but its far from complete. I'm accepting pull requests, i encourage you to do so, it will be a service to everyone who watches the video. 
+
+- Integrate Firebase with the login in a more intuitive way
+- Finish integrating AnyCharts so it pulls from the data directly
+- Add more Tensorflow models for serving
+- Add more instructions for the dialogflow agent
+- Make better investments using Alpaca, a better trading strategy than just using sentiment analysis
+- Speaking of Sentiment Analysis, make that work in a more efficient way
+
 ## Dependencies
 
 - Firebase
-- Paypal 
+- Plaid
 - Tensorflow Lite
 - DialogFlow
-- PyTorch
+- AnyChart
 
 ## Instructions
 
